@@ -1,14 +1,14 @@
 {
-  "name": "electron-test",
+  "name": "electron-wasm-rust",
   "version": "1.0.0",
-  "description": "derp",
+  "description": "A minimal Electron + WebAssembly (WASM) + Rust example.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "github.com/anderejd",
+  "license": "(MIT OR Apache-2.0)",
   "devDependencies": {
     "electron": "^4.1.4"
   }
