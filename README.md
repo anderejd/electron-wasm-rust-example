@@ -16,7 +16,7 @@ Prerequisites:
 
  - Install Rust
  - Add the WASM target, `rustup target add wasm32-unknown-unknown`
- - Install wasm-bindgen, the same version as in Cargo.toml, `cargo install -f wasm-bindgen-cli`
+ - Install wasm-bindgen, the __same version__ as in Cargo.toml, `cargo install -f --version 0.2.41 wasm-bindgen-cli`
  - Install Node.js & NPM
  - Install Electron, `npm install electron --save-dev`, <https://electronjs.org/docs/tutorial/installation>
 
