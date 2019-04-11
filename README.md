@@ -21,8 +21,7 @@ Prerequisites:
 Building
 --------
 
-Use the `build.sh` script to build the WebAssembly module. On Windows, use git
-bash or port it to batch script.
+Use the `build.sh` or `build.ps1` script to build the WebAssembly module.
 
 Running the app during development
 ----------------------------------
