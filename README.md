@@ -3,7 +3,7 @@ electron-wasm-rust-example
 
 A minimal Electron + WebAssembly (WASM) + Rust example.
 
-<img src="https://user-images.githubusercontent.com/3704611/55944698-73ff7400-5c49-11e9-82f0-ade167ae2754.png" width="50%">
+<img src="https://user-images.githubusercontent.com/3704611/55944698-73ff7400-5c49-11e9-82f0-ade167ae2754.png" width="269px">
 
 This example application is based on:
 
