@@ -33,4 +33,6 @@ Running the app during development
 Packaging
 ---------
 
-TODO: Depend on and add scripts(?) for <https://github.com/electron-userland/electron-builder>, see issue #7.
+TODO: Depend on and add scripts(?) for <https://github.com/electron-userland/electron-builder>, see issue [#7].
+
+[#7]: https://github.com/anderejd/electron-wasm-rust-example/issues/7
