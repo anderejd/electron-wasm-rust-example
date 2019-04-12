@@ -45,7 +45,14 @@ protocol.registerStandardSchemes(["app"], { secure: true });
 
 app.on("ready", () => {
   createProtocol("app");
-  let browserWindow = new BrowserWindow({webPreferences: {preload: `${__dirname}/preload.js`}});
+  let browserWindow = new BrowserWindow({
+    webPreferences: {
+      preload: `${__dirname}/preload.js`,
+      nodeIntegration: false,
+      contextIsolation: true
+    }
+  });
+
   //browserWindow.webContents.openDevTools();
   browserWindow.loadFile("index.html");
 });
