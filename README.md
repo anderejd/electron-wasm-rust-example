@@ -33,5 +33,5 @@ Running the app during development
 Packaging
 ---------
 
-TODO: Write me.
+TODO: Depend on and add scripts(?) for https://github.com/electron-userland/electron-builder
 
