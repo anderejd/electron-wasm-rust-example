@@ -24,7 +24,6 @@ let createProtocol = (scheme, normalize = true) => {
 			readFile(__dirname + "/" + pathName, (error, data) => {
 				let extension = extname(pathName).toLowerCase();
 				let mimeType = "";
-
 				if (extension === ".js") {
 					mimeType = "text/javascript";
 				} else if (extension === ".html") {
@@ -37,7 +36,6 @@ let createProtocol = (scheme, normalize = true) => {
 				} else if (extension === ".json") {
 					mimeType = "application/json";
 				}
-
 				respond({
 					mimeType,
 					data
