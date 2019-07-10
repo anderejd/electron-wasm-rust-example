@@ -11,27 +11,33 @@ This example application is based on:
  - https://github.com/rustwasm/wasm-bindgen/tree/master/examples/without-a-bundler
  - https://github.com/anderejd/wasm-bindgen-minimal-example
 
-Prerequisites:
---------------
+Rust setup
+----------
 
- - Install Rust
+ - Install Rust <https://www.rust-lang.org/>
  - Add the WASM target, `rustup target add wasm32-unknown-unknown`
- - Install wasm-bindgen, the __same version__ as in Cargo.toml, `cargo install -f --version 0.2.47 wasm-bindgen-cli`
- - Install Node.js & NPM
- - Install Electron, `npm install electron --save-dev`, <https://electronjs.org/docs/tutorial/installation>
+ - Install wasm-bindgen, the __same version__ as in this [Cargo.toml](Cargo.toml), `cargo install -f --version 0.2.47 wasm-bindgen-cli`
 
-Building
---------
+NPM setup
+---------
+
+ - Install Node.js & NPM
+ - Clone this repository `git clone git@github.com:anderejd/electron-wasm-rust-example.git`
+ - Enter the new directory `cd electron-wasm-rust-example`
+ - Download/install npm dependencies (Electron) for this example, `npm install` <https://electronjs.org/docs/tutorial/installation>
+
+Build the Rust code into WASM
+-----------------------------
 
 Use the `build.sh` or `build.ps1` script to build the WebAssembly module.
 
-Running the app during development
-----------------------------------
+Run the app during development
+------------------------------
 
 `npm start`
 
-Packaging
----------
+Packaging the application for end-users
+---------------------------------------
 
 TODO: Depend on and add scripts(?) for <https://github.com/electron-userland/electron-builder>, see issue [#7].
 
