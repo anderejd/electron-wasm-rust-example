@@ -52,9 +52,12 @@ let createProtocol = (scheme, normalize = true) => {
 }
 
 // Standard scheme must be registered before the app is ready
-protocol.registerStandardSchemes(["app"], {
-	secure: true
-});
+// https://gist.github.com/dbkr/e898624be6d53590ebf494521d868fec
+protocol.registerSchemesAsPrivileged([{
+    scheme: 'app',
+    privileges: { standard: true, secure: true, supportFetchAPI: true },
+}]);
+
 
 app.on("ready", () => {
 	createProtocol("app");
