@@ -10,6 +10,6 @@
   "author": "github.com/anderejd",
   "license": "(MIT OR Apache-2.0)",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "electron": "^11.5.0"
   }
 }
